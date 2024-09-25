@@ -1,0 +1,27 @@
+.button {
+
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #55B1F3;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: center;
+  transition: .3s all ease-in-out;
+  width: 100%;
+  &:hover {
+    background-color: #55B1F3;
+    color: #fff;
+
+    svg {
+      color: #fff;
+    }
+  }
+}
+
+.noText {
+  gap: 0;
+  width: auto;
+}
