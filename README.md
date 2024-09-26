@@ -18,9 +18,10 @@
 
 ## Технологии
 
-- React
-- useState, useEffect
-- react-hook-form
+- React (useState, useEffect)
+- SCSS
+- Vite
+- react-hook-form (useForm, Controller, useFieldArray)
 - localStorage
 
 ## Архитектура проекта
