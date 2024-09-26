@@ -10,10 +10,10 @@ const SuperButton = ({ text, icon, onClick, type, style, children }) => {
             type={type}
             className={`${st.button} ${!text ? st.noText : ''}`}
             onClick={onClick}
-            style={style} // Добавляем возможность передачи стилей
+            style={style}
         >
             <span>{iconGenerate}</span>
-            {text ? <p>{text}</p> : children /* Если передан text, используем его, иначе children */}
+            {text ? <p>{text}</p> : children}
         </button>
     );
 };

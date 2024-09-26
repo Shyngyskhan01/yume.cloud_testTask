@@ -27,7 +27,40 @@
 ## Архитектура проекта
 
 В проекте используется архитектурный подход **Feature-Sliced Design (FSD)**, который помогает организовать код в соответствии с функциональными областями и улучшает масштабируемость приложения.
+```
+src/
+├── features/
+│   ├── taskAdd/
+│   │   └── ui/
+│   │       ├── TaskForm.jsx
+│   │       └── TaskForm.module.scss
+│   ├── taskEdit/
+│   │   └── ui/
+│   │       ├── EditTaskForm.jsx
+│   │       ├── TaskList.jsx
+│   │       └── TaskList.module.scss
+│   ├── taskFilter/
+│   │   └── ui/
+│   │       ├── TaskFilter.jsx
+│   │       └── TaskFilter.module.scss
+├── pages/
+│   ├── TaskManager.jsx
+│   └── Taskmanager.module.scss
+├── shared/
+│   └── ui/
+│       ├── Button/
+│       │   ├── utils/
+│       │   │   └── icons.jsx
+│       │   ├── SuperButton.jsx
+│       │   └── SuperButton.module.scss
+├── App.jsx
+├── App.module.scss
+├── index.css
+└── main.jsx
 
+
+
+```
 
 ## Скрипты для запуска
 

@@ -85,7 +85,7 @@ const EditTaskForm = ({ task, onSaveTask, onCancelEdit }) => {
 
                         <div className={st.subTasks__description}>
                             <Controller
-                                name={`subtasks[${index}].description`} // Добавляем поле для описания подзадачи
+                                name={`subtasks[${index}].description`}
                                 control={control}
                                 render={({field}) => (
                                     <textarea {...field} placeholder={`Subtask #${index + 1} description`}/>)}
