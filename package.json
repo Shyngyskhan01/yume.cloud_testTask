@@ -2,7 +2,7 @@
   "name": "yume.cloud",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Shyngyskhan01.github.io/yume.cloud_testTask",
+  "homepage": "https://Shyngyskhan01.github.io/yume.cloud_testTask/",
   "type": "module",
   "scripts": {
     "dev": "vite",
