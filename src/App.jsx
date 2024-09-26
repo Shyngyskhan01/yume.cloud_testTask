@@ -1,15 +1,11 @@
-import st from "./App.module.scss"
+import React from 'react';
+import TaskManager from "./pages/TaskManager.jsx";
 
-import TaskManager from "./components/TaskManger/TaskManager.jsx";
+const App = () => {
+    return (
+        <div>
+            <TaskManager />
+        </div>);
+};
 
-function App() {
-
-
-  return (
-    <div className={st.container}>
-      <TaskManager />
-    </div>
-  )
-}
-
-export default App
+export default App;

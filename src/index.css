@@ -87,3 +87,11 @@ textarea {
     resize: none;
     overflow: hidden;
 }
+ul , li {
+    list-style: none;
+    padding: 0;
+}
+
+.error {
+    border: 2px solid #e74c3c;
+}

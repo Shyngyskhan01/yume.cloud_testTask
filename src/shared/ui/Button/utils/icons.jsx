@@ -37,6 +37,22 @@ export const icons = (icon) => {
                 </g>
             </svg>
 
+        case 'editIcon' :
+            return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Iconly/Curved/Edit">
+                    <g id="Edit">
+                        <path id="Stroke 1" d="M13.3352 19.5078H19.7122" stroke="currentColor" strokeWidth="1.5"
+                              strokeLinecap="round" strokeLinejoin="round"/>
+                        <path id="Stroke 3" fillRule="evenodd" clipRule="evenodd"
+                              d="M16.0578 4.85877V4.85877C14.7138 3.85077 12.8078 4.12277 11.7998 5.46577C11.7998 5.46577 6.78679 12.1438 5.04779 14.4608C3.30879 16.7788 4.95379 19.6508 4.95379 19.6508C4.95379 19.6508 8.19779 20.3968 9.91179 18.1118C11.6268 15.8278 16.6638 9.11677 16.6638 9.11677C17.6718 7.77377 17.4008 5.86677 16.0578 4.85877Z"
+                              stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path id="Stroke 5" d="M10.5042 7.21143L15.3682 10.8624" stroke="currentColor" strokeWidth="1.5"
+                              strokeLinecap="round" strokeLinejoin="round"/>
+                    </g>
+                </g>
+            </svg>
+
+
         default:
             return null
     }
